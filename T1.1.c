@@ -6,8 +6,8 @@
 #include <stdlib.h>
 
 void smallestOfThree(int x, int y, int z){
-    if (x<<y && X <= Z) {
-        printf("Smallest number is %d",y);
+    if (x<=y && X<= Z) {
+        printf("Smallest number is %d",x);
     }else if (y<=x && y<=z){
         printf("Smallest number is %d",y);
     }
